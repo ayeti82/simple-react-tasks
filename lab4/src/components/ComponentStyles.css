@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+.mainBody {
+    background-color: rgb(219, 217, 217);
+    font-family: "Balsamiq Sans", cursive;
+    padding: 20px;
+    margin: 5px;
+}
+
+.container {
+    align-items: center;
+    margin: auto;
+    width: 60%;
+    font-family: "Balsamiq Sans", cursive;
+    background-color: grey;
+    border-radius: 15px;
+}
+
+.mainTextStyle {
+    padding: 5px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.xx-large {
+    font-size: xx-large;
+}
+
+.larger {
+    font-size: larger;
+}
+
+label,
+input,
+.summaryStyle,
+.summaryValueStyle,
+.checkBoxStyle {
+    display: inline-block;
+}
+
+.labelStyle {
+    width: 60%;
+    text-align: left;
+}
+
+.summaryStyle {
+    width: 40%;
+    text-align: left;
+}
+
+.summaryValueStyle {
+    width: 40%;
+    text-align: center;
+    background-color: white;
+}
+
+.checkBoxStyle {
+    width: 5%;
+    margin-left: 20px;
+}
+
+.inputStyle {
+    margin: 10px;
+    width: 60%;
+    border: 2px black solid;
+    height: 25px;
+}
+
+.blockStyle {
+    margin: 10px;
+}
+
+.buttonStyle {
+    margin: 25px 5px;
+    font-family: "Balsamiq Sans", cursive;
+    height: 35px;
+    width: auto;
+    border: 2px solid;
+    background-color: white;
+}
+
+.buttonStyle:hover {
+    background-color: lightgray;
+}
+
+.buttonStyle:active {
+    background-color: gray;
+    box-shadow: 2px 2px;
+}
+
+.errorStyle {
+    color: rgb(116, 6, 6);
+    padding: 0px;
+    margin: 0px;
+    font-size: small;
+    text-align: center;
+}
+
+.yellow {
+    color: rgb(206, 206, 57);
+}
