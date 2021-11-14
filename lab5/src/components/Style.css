@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+.container {
+    align-items: center;
+    margin: auto;
+    width: 95%;
+    font-family: "Balsamiq Sans", cursive;
+}
+
+.buttonStyle {
+    margin: 25px 5px;
+    font-family: "Balsamiq Sans", cursive;
+    height: 35px;
+    width: 100px;
+    border: 2px solid;
+    background-color: white;
+}
+
+.buttonStyle:hover {
+    background-color: lightgray;
+}
+
+.buttonStyle:active {
+    background-color: gray;
+    box-shadow: 2px 2px;
+}
